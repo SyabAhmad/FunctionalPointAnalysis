@@ -18,12 +18,31 @@ print("================================================================")
 # Weights of 5-FP Attributes
 
 class FunctionsInApplications(object):
-    def constantValues(self):
+    def Values(self):
         NumberOfExternalInputs = 1
         NumberOfExternalOutputs = 2
         NumberOfExternalInquires = 3
         NumberOfInternalFiles = 4
         NumberOfExternalInterfaces = 5
+
+    def WeightingFectorsForSimple(self):
+        NumberOfExternalInputsForSimple = 1
+        NumberOfExternalOutputsForSimple = 2
+        NumberOfExternalInquiresForSimple = 3
+        NumberOfInternalFilesForSimple = 4
+        NumberOfExternalInterfacesForSimple = 5
+    def WeightingFectorsForAverage(self):
+        NumberOfExternalInputsForAverage = 1
+        NumberOfExternalOutputsForAverage = 2
+        NumberOfExternalInquiresForAverage = 3
+        NumberOfInternalFilesForAverage = 4
+        NumberOfExternalInterfacesForAverage = 5
+    def WeightingFectorsForComplix(self):
+        NumberOfExternalInputsForComplix = 1
+        NumberOfExternalOutputsForComplix = 2
+        NumberOfExternalInquiresForComplix = 3
+        NumberOfInternalFilesForComplix = 4
+        NumberOfExternalInterfacesForComplix = 5
 
 
 
