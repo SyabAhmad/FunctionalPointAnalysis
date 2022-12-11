@@ -17,27 +17,27 @@ print("================================================================")
 # some weights that have been experimentally determined and are shown in Table
 # Weights of 5-FP Attributes
 
-class FunctionsInApplications(object):
-    def Values(self):
+class FunctionsInApplications(object): # class for functions
+    def Values(self): # To take those values from user
         NumberOfExternalInputs = 1
         NumberOfExternalOutputs = 2
         NumberOfExternalInquires = 3
         NumberOfInternalFiles = 4
         NumberOfExternalInterfaces = 5
 
-    def WeightingFectorsForSimple(self):
+    def WeightingFectorsForSimple(self): # default weights for simple
         NumberOfExternalInputsForSimple = 1
         NumberOfExternalOutputsForSimple = 2
         NumberOfExternalInquiresForSimple = 3
         NumberOfInternalFilesForSimple = 4
         NumberOfExternalInterfacesForSimple = 5
-    def WeightingFectorsForAverage(self):
+    def WeightingFectorsForAverage(self): # default weights for average
         NumberOfExternalInputsForAverage = 1
         NumberOfExternalOutputsForAverage = 2
         NumberOfExternalInquiresForAverage = 3
         NumberOfInternalFilesForAverage = 4
         NumberOfExternalInterfacesForAverage = 5
-    def WeightingFectorsForComplix(self):
+    def WeightingFectorsForComplix(self): # default weights for complex
         NumberOfExternalInputsForComplix = 1
         NumberOfExternalOutputsForComplix = 2
         NumberOfExternalInquiresForComplix = 3
