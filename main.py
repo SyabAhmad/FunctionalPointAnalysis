@@ -26,23 +26,23 @@ class FunctionsInApplications(object): # class for functions
         NumberOfExternalInterfaces = 5
 
     def WeightingFectorsForSimple(self): # default weights for simple
-        NumberOfExternalInputsForSimple = 1
-        NumberOfExternalOutputsForSimple = 2
+        NumberOfExternalInputsForSimple = 7
+        NumberOfExternalOutputsForSimple = 5
         NumberOfExternalInquiresForSimple = 3
         NumberOfInternalFilesForSimple = 4
-        NumberOfExternalInterfacesForSimple = 5
+        NumberOfExternalInterfacesForSimple = 3
     def WeightingFectorsForAverage(self): # default weights for average
-        NumberOfExternalInputsForAverage = 1
-        NumberOfExternalOutputsForAverage = 2
-        NumberOfExternalInquiresForAverage = 3
-        NumberOfInternalFilesForAverage = 4
+        NumberOfExternalInputsForAverage = 4
+        NumberOfExternalOutputsForAverage = 4
+        NumberOfExternalInquiresForAverage = 6
+        NumberOfInternalFilesForAverage = 10
         NumberOfExternalInterfacesForAverage = 5
     def WeightingFectorsForComplix(self): # default weights for complex
-        NumberOfExternalInputsForComplix = 1
-        NumberOfExternalOutputsForComplix = 2
-        NumberOfExternalInquiresForComplix = 3
-        NumberOfInternalFilesForComplix = 4
-        NumberOfExternalInterfacesForComplix = 5
+        NumberOfExternalInputsForComplix = 15
+        NumberOfExternalOutputsForComplix = 10
+        NumberOfExternalInquiresForComplix = 6
+        NumberOfInternalFilesForComplix = 7
+        NumberOfExternalInterfacesForComplix = 6
 
 
 
